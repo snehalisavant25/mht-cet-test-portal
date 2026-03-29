@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MHT-CET Test Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>MHT-CET Test Portal</h1>
+</header>
+
+
+<section id="home" class="page active">
+    <h2>Select Subject</h2>
+    <div class="grid">
+        <div class="card" onclick="selectSubject('Physics')">Physics</div>
+        <div class="card" onclick="selectSubject('Chemistry')">Chemistry</div>
+        <div class="card" onclick="selectSubject('Maths')">Mathematics</div>
+    </div>
+</section>
+
+
+<section id="chapters" class="page">
+    <button onclick="goHome()">⬅ Back</button>
+    <h2 id="subjectTitle"></h2>
+    <div id="chapterGrid" class="grid"></div>
+</section>
+
+
+<section id="test" class="page">
+    <h2 id="chapterTitle"></h2>
+    <p id="progress"></p>
+    <p id="timer">Time Left: 60s</p>
+
+    <div class="question-box">
+        <h3 id="questionText"></h3>
+        <div id="options"></div>
+        <div class="navigation-buttons">
+    <button id="prevBtn" onclick="prevQuestion()">Previous</button>
+    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+    <button id="submitBtn" onclick="submitTest()" style="display:none;">Submit</button>
+</div>
+    </div>
+
+
+    <button class="submit" onclick="submitTest()">Submit Test</button>
+</section>
+
+<section id="result" class="page">
+    <h2>Result</h2>
+    <p id="scoreText"></p>
+    <button id="homeBtn" onclick="goHome()">Back to Home</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
