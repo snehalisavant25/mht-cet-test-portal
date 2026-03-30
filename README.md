@@ -4,18 +4,18 @@ A responsive and user-friendly MHT-CET Test Portal built using HTML, CSS, and Ja
 
 #Features:
 
-•Subject selection (Physics, Chemistry,  Mathematics)
-•Chapter-wise MCQ tests
-•Timer for each test
-•Previous/Next navigation
-•Instant result calculation
-•Clean and responsive UI
+- Subject selection (Physics, Chemistry, Mathematics)
+- Chapter-wise MCQ tests
+- Timer for each test
+- Previous/Next navigation
+- Instant result calculation
+- Clean and responsive UI
 
 #Technologies Used:
 
-•HTML
-•CSS
-•JavaScript
+- HTML  
+- CSS  
+- JavaScript
 
 #How to Run Project:
 
@@ -27,6 +27,6 @@ A responsive and user-friendly MHT-CET Test Portal built using HTML, CSS, and Ja
 
 #Project Structure:
 
-•index.html → Main structure
-•style.css → Styling
-•script.js → Functionality and question logic
+- index.html → Main structure  
+- style.css → Styling  
+- script.js → Functionality and logic
